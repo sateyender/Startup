@@ -301,7 +301,7 @@ html, body, [class*="css"], .stMarkdown, .stText {{
 # ───────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv("startupPulse_Master_Data_Final.csv")
+    df = pd.read_csv("StartupPulse_Master_Data_Final.csv")
     return df
 
 try:
